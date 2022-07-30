@@ -618,4 +618,10 @@ $stop called at time : 410 ns : File "C:/Users/SPLAB/Dropbox/PC/Desktop/SingleCy
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1621.254 ; gain = 0.000
+
 ```
+
+# Reference
+
+Computer Organization and Design: the Hardware/Software Interface: Fifth Edition
+Textbook by David A Patterson and John L. Hennessy
