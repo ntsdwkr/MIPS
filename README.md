@@ -7,7 +7,7 @@ MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 ## Block Diagram
 
 [MIPS](Documents/MIPS.png)
-![MIPS](https://www.eg.bucknell.edu/~csci320/2014-fall/fig/single_cycle.png)
+![MIPS](Documents/MIPS.png)
 
 <center>Figure: Single Cycle Diagram (MIPS)</center>
 
