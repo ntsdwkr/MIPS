@@ -4,8 +4,8 @@
 
 MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 
-[MIPS](Captures/MIPS.png)
-![MIPS](Captures/MIPS.png)
+[MIPS](Documents/MIPS.png)
+![MIPS](https://www.eg.bucknell.edu/~csci320/2014-fall/fig/single_cycle.png)
 
 <center>Figure: Single Cycle Diagram (MIPS)</center>
 
