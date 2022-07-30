@@ -11,6 +11,13 @@ MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 
 <center>Figure: Single Cycle Diagram (MIPS)</center>
 
+## Instruction Format
+
+[Instruction_Format](Documents/Instruction_Format.png)
+![Instruction_Format](Documents/Instruction_Format.png)
+
+<center>Figure: ALU Control Table</center>
+
 ## ALU Control
 
 [ALU_Control](Documents/ALU_Control.png)
