@@ -15,7 +15,7 @@ MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 
 [RTL](Documents/RTL.png)
 ![RTL](Documents/RTL.png)
-<center>Figure: Single Cycle Diagram (MIPS)</center>
+<center>Figure: RTL Diagram (MIPS)</center>
 
 ## ALU Control
 
