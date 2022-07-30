@@ -4,10 +4,27 @@
 
 MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 
+## Block Diagram
+
 [MIPS](Documents/MIPS.png)
 ![MIPS](https://www.eg.bucknell.edu/~csci320/2014-fall/fig/single_cycle.png)
 
 <center>Figure: Single Cycle Diagram (MIPS)</center>
+
+## ALU Control
+
+[ALU_Control](Documents/ALU_Control.png)
+![MIPS](Documents/ALU_Control.png)
+
+<center>Figure: ALU Control Table</center>
+
+
+## Control Unit
+
+[Control_Unit](Documents/Control_Unit.png)
+![Control_Unit](Documents/Control_Unit.png)
+
+<center>Figure: Control Unit Table</center>
 
 ## Verilog Simulation
 
