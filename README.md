@@ -16,7 +16,7 @@ MIPS Project by using **Verilog** in **XILINX-VIVADO**.
 [Instruction_Format](Documents/Instruction_Format.png)
 ![Instruction_Format](Documents/Instruction_Format.png)
 
-<center>Figure: ALU Control Table</center>
+<center>Figure: Instruction Format Table</center>
 
 ## ALU Control
 
