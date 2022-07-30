@@ -2,7 +2,7 @@
 
 ## Overview
 
-MIPS Project by using **Verilog** in **XILINX-VIVADO**.
+MIPS Project using **Verilog** in **XILINX-VIVADO**.
 
 ## Block Diagram
 
