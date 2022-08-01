@@ -20,7 +20,7 @@ MIPS Project using **Verilog** in **Xilinx-VIVADO**.
 ## ALU Control
 
 [ALU_Control](Documents/ALU_Control.png)
-![MIPS](Documents/ALU_Control.png)
+![ALU_Control](Documents/ALU_Control.png)
 
 <center>Figure: ALU Control Table</center>
 
