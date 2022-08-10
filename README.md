@@ -36,8 +36,32 @@ MIPS Project using **Verilog** in **Xilinx-VIVADO**.
 
 A set of instructions are used to test the single-cycle implementation.
 
-Testcase: 
-# LW SW intructions 
+# Testcase: 
+
+## Fibonacci intructions 
+
+```assembly
+
+001000_00000_01000_0000000000001010 //addi $t0, $zero, 10 [fib]
+001000_00000_01001_0000000000000001 //addi $t1, $zero, 1
+001000_00000_01010_1111111111111111 //addi $t2, $zero, -1
+000100_01000_00000_0000000000000101 //beq $t0, $zero, end [loop]
+000000_01001_01010_01001_00000_100000 //add $t1, $t1, $t2
+000000_01001_01010_01010_00000_100010 //sub $t2, $t1, $t2
+001000_01000_01000_1111111111111111 //addi $t0, $t0, -1
+000010_00000000000000000000000011 // j loop
+101011_00000_01001_0000000011111111 // sw $t1, 255($zero) [end]
+
+```
+
+## Simulation result:
+
+[Fib](Documents/Fibonacci_Simulation.png)
+![Fib](Documents/Fibonacci_Simulation.png)
+<center>Figure: Fibonacci Simulation</center>
+
+
+## LW SW intructions 
 
 ```assembly
 
@@ -51,9 +75,10 @@ Testcase:
 101011_00000_01001_0000000000001000 //sw $t1, 8($zero) // Dmem[$zero + 8] = 37H
 100011_00000_10001_0000000000001000 //lw $s1, 8($zero) // $s1 = Dmem[$zero + 8] // $s1 = 37H
 111111_00000000000000000000000000 //nop
+
 ```
 
-Simulation result:
+## Simulation result:
 
 ```c
 # run 1000ns
