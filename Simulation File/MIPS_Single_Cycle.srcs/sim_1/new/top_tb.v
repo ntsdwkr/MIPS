@@ -25,7 +25,8 @@
 module top_tb;
 
   reg clk;
-  integer i, counter;
+  integer i;
+ // integer  counter;
 
   always #(`CYCLE_TIME / 2) clk = ~clk;
 
@@ -41,12 +42,12 @@ module top_tb;
     for (i = 0; i < 32; i = i + 1) begin
       uut.u_Register.RegData[i] = 32'b0;
     end
-    counter = 0;
+   // counter = 0;
     clk = 0;
   end
 
   always @(posedge clk) begin
-    if (counter == 20) $stop;
+    // if (counter == 50) $stop;
     /////////////////////////////////////////////
     $display($time,, "PC = ", uut.pc_in);
     $display($time,, "IM = %b", uut.im_instruction);
@@ -82,31 +83,31 @@ module top_tb;
     $display("---------------------------------------------------------------------------------------------------------");
 
     // print Data_memory
-    $display($time,, "Data_memory: 0x00 = 0x%x", {
+    $display($time,, "Data_memory: 0x00 = %x", {
              uut.u_Data_memory.Dmem[3], uut.u_Data_memory.Dmem[2], uut.u_Data_memory.Dmem[1], uut.u_Data_memory.Dmem[0]});
-    $display($time,, "Data_memory: 0x04 = 0x%x", {
+    $display($time,, "Data_memory: 0x04 = %x", {
              uut.u_Data_memory.Dmem[7], uut.u_Data_memory.Dmem[6], uut.u_Data_memory.Dmem[5], uut.u_Data_memory.Dmem[4]});
-    $display($time,, "Data_memory: 0x08 = 0x%H", {
+    $display($time,, "Data_memory: 0x08 = %x", {
              uut.u_Data_memory.Dmem[11], uut.u_Data_memory.Dmem[10], uut.u_Data_memory.Dmem[9], uut.u_Data_memory.Dmem[8]});
-    $display($time,, "Data_memory: 0x0c = 0x%H", {
+    $display($time,, "Data_memory: 0x0c = %x", {
              uut.u_Data_memory.Dmem[15], uut.u_Data_memory.Dmem[14], uut.u_Data_memory.Dmem[13], uut.u_Data_memory.Dmem[12]});
-    $display($time,, "Data_memory: 0x10 = 0x%H", {
+    $display($time,, "Data_memory: 0x10 = %x", {
              uut.u_Data_memory.Dmem[19], uut.u_Data_memory.Dmem[18], uut.u_Data_memory.Dmem[17], uut.u_Data_memory.Dmem[16]});
-    $display($time,, "Data_memory: 0x14 = 0x%H", {
+    $display($time,, "Data_memory: 0x14 = %x", {
              uut.u_Data_memory.Dmem[23], uut.u_Data_memory.Dmem[22], uut.u_Data_memory.Dmem[21], uut.u_Data_memory.Dmem[20]});
-    $display($time,, "Data_memory: 0x18 = 0x%H", {
+    $display($time,, "Data_memory: 0x18 = %x", {
              uut.u_Data_memory.Dmem[27], uut.u_Data_memory.Dmem[26], uut.u_Data_memory.Dmem[25], uut.u_Data_memory.Dmem[24]});
-    $display($time,, "Data_memory: 0x1c = 0x%H", {
+    $display($time,, "Data_memory: 0x1c = %x", {
              uut.u_Data_memory.Dmem[31], uut.u_Data_memory.Dmem[30], uut.u_Data_memory.Dmem[29], uut.u_Data_memory.Dmem[28]});
     
     $display("========================================================================================================");
 
-    counter = counter + 1;
+    // counter = counter + 1;
   end
   
-//  initial begin
-//    #1000 $finish;
-//  end
+ initial begin
+    #1200 $finish;
+ end
 
 
 endmodule
