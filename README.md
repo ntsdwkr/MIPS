@@ -56,7 +56,7 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Simulation result:
 
-<img src="https://github.com/ntsdwkr/MIPS/blob/main/Documents/Fibonacci_Simulation.png" width="100%" height="100%">
+<img src="https://github.com/ntsdwkr/MIPS/blob/main/Documents/Fibonacci_Simulation.png" width="1903" height="1017">
 <center>Figure: Fibonacci Simulation</center>
 
 
