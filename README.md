@@ -56,8 +56,7 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Simulation result:
 
-[Fib]<img src="Documents/Fibonacci_Simulation.png" width="1903" height="1017">
-![Fib]<img src="Documents/Fibonacci_Simulation.png" width="1903" height="1017">
+<img src="Documents/Fibonacci_Simulation.png" width="1017" height="1903">
 <center>Figure: Fibonacci Simulation</center>
 
 
