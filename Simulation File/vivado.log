@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Aug 15 16:02:40 2022
+# Process ID: 13892
+# Current directory: C:/Users/SPLAB/Dropbox/PC/Documents/GitHub/MIPS/Simulation File
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18552 C:\Users\SPLAB\Dropbox\PC\Documents\GitHub\MIPS\Simulation File\MIPS_Single_Cycle.xpr
+# Log file: C:/Users/SPLAB/Dropbox/PC/Documents/GitHub/MIPS/Simulation File/vivado.log
+# Journal file: C:/Users/SPLAB/Dropbox/PC/Documents/GitHub/MIPS/Simulation File\vivado.jou
+# Running On: NiTiSH, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 17057 MB
+#-----------------------------------------------------------
+start_gui
