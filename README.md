@@ -38,11 +38,14 @@ A set of instructions are used to test the single-cycle implementation.
 
 # Testcase: 
 
-## Nth fibonacci number with store(SW) and load(LW) instruction intructions 
+## Nth Fibonacci Algorithm
 
 [Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
 ![Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
 <center>Figure: Fibonacci Algorithm</center>
+
+
+## Nth fibonacci algorithm number with store(SW) and load(LW) instruction intructions 
 
 ```assembly
 
