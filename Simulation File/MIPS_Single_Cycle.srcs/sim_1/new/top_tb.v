@@ -25,8 +25,7 @@
 module top_tb;
 
   reg clk;
-  integer i;
- // integer  counter;
+  integer i; // integer  counter
 
   always #(`CYCLE_TIME / 2) clk = ~clk;
 
@@ -42,13 +41,12 @@ module top_tb;
     for (i = 0; i < 32; i = i + 1) begin
       uut.u_Register.RegData[i] = 32'b0;
     end
-   // counter = 0;
+   
     clk = 0;
   end
 
   always @(posedge clk) begin
-    // if (counter == 50) $stop;
-    /////////////////////////////////////////////
+    
     $display($time,, "PC = ", uut.pc_in);
     $display($time,, "IM = %b", uut.im_instruction);
     $display($time,, "ALU_control = %b", uut.c_ALUcontrol);
@@ -101,13 +99,16 @@ module top_tb;
              uut.u_Data_memory.Dmem[31], uut.u_Data_memory.Dmem[30], uut.u_Data_memory.Dmem[29], uut.u_Data_memory.Dmem[28]});
     
     $display("========================================================================================================");
-
-    // counter = counter + 1;
   end
   
- initial begin
-    #1200 $finish;
- end
+  initial begin  
+    #1800;
+    $display("%0dth fibonacci number = %0d\n", uut.u_Register.RegData[16], uut.u_Register.RegData[17]);
+  end
+  
+  initial begin
+    #1800 $finish;
+  end
 
 
 endmodule
