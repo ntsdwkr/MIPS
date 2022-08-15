@@ -49,7 +49,7 @@ A set of instructions are used to test the single-cycle implementation.
 
 ```assembly
 
-001000_00000_01000_0000000000001011     // [0]    // addi $t0, $zero, 10 [[fib]]
+001000_00000_01000_0000000000001011     // [0]    // addi $t0, $zero, 11 [[fib]]
 000000_01000_00000_10000_00000_100000   // [1]    // add $s0, $t0, $0 [nth number]
 001000_00000_01001_0000000000000001     // [2]    // addi $t1, $zero, 1
 001000_00000_01010_1111111111111111     // [3]    // addi $t2, $zero, -1
