@@ -40,6 +40,10 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Nth fibonacci number with store(SW) and load(LW) instruction intructions 
 
+[Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
+![Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
+<center>Figure: Fibonacci Algorithm</center>
+
 ```assembly
 
 001000_00000_01000_0000000000001011     // [0]    // addi $t0, $zero, 10 [[fib]]
@@ -60,8 +64,8 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Simulation result:
 
-[Fib](Documents/Fibonacci_Simulation.png)
-![Fib](Documents/Fibonacci_Simulation.png)
+[Fibonacci_Simulation](Documents/Fibonacci_Simulation.png)
+![Fibonacci_Simulation](Documents/Fibonacci_Simulation.png)
 <center>Figure: Fibonacci Simulation</center>
 
 ## Author 
