@@ -45,7 +45,7 @@ A set of instructions are used to test the single-cycle implementation.
 <center>Figure: Fibonacci Algorithm</center>
 
 
-## Nth fibonacci number with store(SW) and load(LW) instruction intructions 
+## Nth fibonacci number with store(SW) and load(LW) instructions
 
 ```assembly
 
