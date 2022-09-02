@@ -36,7 +36,7 @@ MIPS Project using **Verilog** in **Xilinx-VIVADO**.
 
 A set of instructions are used to test the single-cycle implementation.
 
-# Testcase: 
+## Testcase: 
 
 ## Nth Fibonacci Algorithm
 
@@ -65,6 +65,8 @@ A set of instructions are used to test the single-cycle implementation.
 111111_00000000000000000000000000       // [13]   // nop [load delay slot]
 
 ```
+
+# Note: Add nop instruction after **Branch** and **Load** instructions for Branch Delay Slot and Load Delay Slot respectively.
 
 ## Simulation result:
 
