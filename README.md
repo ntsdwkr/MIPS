@@ -1,8 +1,8 @@
 # MIPS (RISC) 32 bits Single Cycle Processor
 
-## Overview
+## Introduction
 
-MIPS Project using **Verilog** in **Xilinx-VIVADO**.
+Implementation of a 32-bit single-cycle microarchitecture MIPS (RISC) processor based on Harvard Architecture using **Verilog** HDL. The simulation was performed on **Xilinx-VIVADO** to run a program of **Fibonacci series** written with C language and compiled into machine code.
 
 ## Block Diagram
 
