@@ -6,23 +6,23 @@ Implementation of a 32-bit single-cycle microarchitecture MIPS (RISC) processor 
 
 ## Block Diagram
 
-[MIPS](Documents/MIPS.png)
+![MIPS](Documents/MIPS.png)
 <center>Figure: Single Cycle Diagram (MIPS)</center>
 
 ## RTL
 
-[RTL](Documents/RTL.png)
+![RTL](Documents/RTL.png)
 <center>Figure: RTL Diagram (MIPS)</center>
 
 ## ALU Control
 
-[ALU_Control](Documents/ALU_Control.png)
+![ALU_Control](Documents/ALU_Control.png)
 <center>Figure: ALU Control Table</center>
 
 
 ## Control Unit
 
-[Control_Unit](Documents/Control_Unit.png)
+![Control_Unit](Documents/Control_Unit.png)
 <center>Figure: Control Unit Table</center>
 
 ## Verilog Simulation
@@ -33,7 +33,7 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Nth Fibonacci Algorithm
 
-[Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
+![Fibonacci_Algorithm](Documents/Fibonacci_Function.png)
 <center>Figure: Fibonacci Algorithm</center>
 
 
@@ -62,7 +62,7 @@ A set of instructions are used to test the single-cycle implementation.
 
 ## Simulation result:
 
-[Fibonacci_Simulation](Documents/Fibonacci_Simulation.png)
+![Fibonacci_Simulation](Documents/Fibonacci_Simulation.png)
 <center>Figure: Fibonacci Simulation</center>
 
 ## Author 
